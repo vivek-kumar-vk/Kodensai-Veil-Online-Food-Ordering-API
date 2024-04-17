@@ -35,7 +35,7 @@ public class CustomerUserDetaislService implements  UserDetailsService{
 		List<GrantedAuthority> authorities = new ArrayList<>();
 		authorities.add(new SimpleGrantedAuthority(role.toString()));
 		
-		return null;
+		return null; //dssad
 	}
 
 }
