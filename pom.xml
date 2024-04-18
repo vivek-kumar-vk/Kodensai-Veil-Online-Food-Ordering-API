@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>>>>>>> 0b77284710e45e16f11a863e6000a35bf9af63c3
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.2.4</version>
+<<<<<<< HEAD
 		<relativePath/> <!-- lookup parent from repository -->
+=======
+		<relativePath /> <!-- lookup parent from repository -->
+>>>>>>> 0b77284710e45e16f11a863e6000a35bf9af63c3
 	</parent>
 	<groupId>com.KodensaiVeil</groupId>
 	<artifactId>Online-Food-Ordering</artifactId>
@@ -44,14 +53,26 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+<<<<<<< HEAD
 			<optional>true</optional>
+=======
+>>>>>>> 0b77284710e45e16f11a863e6000a35bf9af63c3
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
 
+=======
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-api -->
+>>>>>>> 0b77284710e45e16f11a863e6000a35bf9af63c3
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
 			<artifactId>jjwt-api</artifactId>
@@ -70,8 +91,13 @@
 			<version>0.12.5</version>
 			<scope>runtime</scope>
 		</dependency>
+<<<<<<< HEAD
 	</dependencies>
 
+=======
+
+	</dependencies>
+>>>>>>> 0b77284710e45e16f11a863e6000a35bf9af63c3
 
 	<build>
 		<plugins>
@@ -82,5 +108,8 @@
 		</plugins>
 	</build>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0b77284710e45e16f11a863e6000a35bf9af63c3
 </project>
